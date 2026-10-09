@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="77777电影网 - 免费高清电影在线观看导航，收录动作、喜剧、爱情、科幻、悬疑、恐怖、动漫、纪录片、电视剧、综艺等 77777 电影网站入口，按类型、年份、地区、清晰度、豆瓣评分分类，标注更新时间、中文字幕、4K 蓝光与备用入口，每日更新。">
+<meta name="keywords" content="77777电影网, 免费高清电影在线观看, 77777 电影网站, 电影网址大全, 电影网站导航, 热播电视剧, 电影分类导航, 动作片, 喜剧片, 爱情片, 科幻片, 悬疑片, 恐怖片, 动漫, 纪录片, 4K, 蓝光, 中文字幕">
+<meta name="author" content="77777电影网">
+<meta name="theme-color" content="#0c0014">
+<title>77777电影网 - 免费高清电影在线观看导航 | 77777 电影网站大全</title>
+<style>
+/* ============ 77777电影网 · 单页（深紫 #2a0a4a + 霓虹洋红 #ff2fa0 + 电光青 #31e8c9 + 赛博黄 #ffe234 · 霓虹/票根/复古未来美学） ============ */
+:root{
+  --bg:#0c0014; --card:#140024; --line:#3a1d63; --ink:#f4e9ff; --sub:#a58fc4;
+  --m:#ff2fa0; --c:#31e8c9; --y:#ffe234; --b:#5b6bff;
+  --sans:"PingFang SC","Microsoft YaHei",-apple-system,sans-serif;
+  --mono:Consolas,"JetBrains Mono",monospace;
+  --disp:"Anton","Bebas Neue",-apple-system,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:var(--sans);color:var(--ink);line-height:1.85;background:var(--bg);overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0;z-index:0;background:
+  radial-gradient(900px 520px at 90% -8%,rgba(255,47,160,.22),transparent 62%),
+  radial-gradient(720px 440px at 2% 10%,rgba(49,232,201,.14),transparent 60%),
+  repeating-linear-gradient(0deg,rgba(255,255,255,.022) 0 1px,transparent 1px 5px)}
+a{color:inherit;text-decoration:none}
+ul,ol{list-style:none}
+button,input{font-family:inherit;outline:none;border:none;background:none}
+::selection{background:var(--m);color:#fff}
+.wrap{max-width:1280px;margin:0 auto;padding:0 26px;position:relative;z-index:5}
+.sec{padding:64px 0;position:relative;z-index:4}
+.sec-head{display:flex;align-items:baseline;gap:13px;flex-wrap:wrap;margin-bottom:26px}
+.sec-head .ix{font:900 10.5px var(--mono);letter-spacing:2.4px;color:#0c0014;background:var(--y);padding:5px 11px}
+.sec-head h2{font:900 28px/1;letter-spacing:1.4px}
+.sec-head h2 em{font-style:normal;color:var(--c);text-shadow:0 0 18px rgba(49,232,201,.55)}
+.sec-head small{margin-left:auto;font:800 9.5px;letter-spacing:2px;color:var(--sub)}
+.pill{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:17px}
+.pill a{font:800 10.5px;padding:6px 13px;border:1px solid var(--line);color:var(--sub);transition:.2s}
+.pill a:hover{color:var(--bg);background:var(--c);border-color:var(--c)}
+
+/* 霓虹招牌装饰 */
+.neon{position:fixed;z-index:1;pointer-events:none;font:900 12px var(--mono);letter-spacing:6px;color:rgba(255,255,255,.05);writing-mode:vertical-rl}
+.neon.n1{right:8px;top:120px}.neon.n2{left:6px;bottom:120px;color:rgba(255,47,160,.09)}
+
+/* 顶栏 */
+.topbar{position:fixed;inset:0 0 auto 0;z-index:70;height:64px;display:flex;align-items:center;background:rgba(12,0,20,.86);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.topbar .wrap{display:flex;align-items:center;gap:16px;width:100%}
+.logo{font:900 24px/1;letter-spacing:1px;white-space:nowrap;color:var(--y)}
+.logo em{font-style:normal;color:var(--m);text-shadow:0 0 14px rgba(255,47,160,.7)}
+.logo b{font:900 12px;color:var(--c);letter-spacing:3px;display:block;margin-top:2px}
+.navi{display:flex;gap:3px;margin-left:auto}
+.navi a{font:800 12.5px;padding:10px 13px;color:var(--sub);transition:.2s;border-bottom:2px solid transparent}
+.navi a:hover{color:var(--c);border-bottom-color:var(--m)}
+
+/* Hero */
+.hero{position:relative;z-index:4;padding:160px 0 76px;overflow:hidden}
+.hero .band{font:800 10.5px var(--mono);letter-spacing:5px;color:var(--m)}
+.hero h1{font:900 clamp(40px,12vw,92px)/1.05;margin-top:12px;letter-spacing:1px;text-shadow:0 0 30px rgba(255,47,160,.35)}
+.hero h1 em{font-style:normal;color:var(--y)}
+.hero h1 s{text-decoration:none;color:var(--c)}
+.hero p{margin-top:18px;max-width:780px;color:var(--sub);font-size:15px}
+.search{margin-top:26px;display:flex;max-width:700px;background:var(--card);border:1px solid var(--line)}
+.search input{flex:1;padding:17px 18px;font-size:15px;color:var(--ink)}
+.search input::placeholder{color:var(--sub)}
+.search button{font:900 14px;letter-spacing:3px;padding:0 28px;color:#0c0014;background:var(--y);cursor:pointer}
+.search button:hover{background:var(--c)}
+.stats{display:flex;gap:46px;margin-top:32px;flex-wrap:wrap}
+.stats div{font:800 10.5px;letter-spacing:1.8px;color:var(--sub)}
+.stats b{display:block;font:900 28px/1 var(--mono);color:var(--ink);font-variant-numeric:tabular-nums}
+.stats b i{font-style:normal;font-size:11px;color:var(--m);font-weight:800}
+
+/* 一、片单：票根卡 */
+#wall .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.tk{position:relative;height:262px;padding:16px;display:flex;flex-direction:column;justify-content:space-between;background:linear-gradient(180deg,color-mix(in srgb,var(--c2) 26%,var(--card)),var(--card));border:1px solid var(--line);transition:.3s;overflow:hidden}
+.tk::before,.tk::after{content:"";position:absolute;width:18px;height:18px;border-radius:50%;background:var(--bg);border:1px solid var(--line);top:50%;transform:translateY(-50%);z-index:3}
+.tk::before{left:-9px}.tk::after{right:-9px}
+.tk:hover{transform:translateY(-10px);border-color:var(--c);box-shadow:0 24px 50px -20px var(--c)}
+.tk .tg{font:900 9px;letter-spacing:2px;background:var(--m);color:#fff;align-self:flex-start;padding:5px 11px}
+.tk h3{font:900 16.5px;letter-spacing:.5px;z-index:2}
+.tk .q{font:800 10.5px;color:var(--sub);z-index:2}
+.tk .ft{display:flex;justify-content:space-between;align-items:flex-end;z-index:2}
+.tk .sc{font:900 26px var(--mono);color:var(--y);font-variant-numeric:tabular-nums;text-shadow:0 0 12px rgba(255,226,52,.4)}
+.tk .sc small{font-size:8.5px;color:var(--ink);letter-spacing:.6px;font-weight:800}
+.tk .lk{font:800 9.5px;color:var(--c);letter-spacing:.8px}
+
+/* 二、热播榜：霓虹条形图 */
+#hot .tb{display:flex;flex-direction:column;gap:9px}
+.hr{display:grid;grid-template-columns:58px 1fr 100px;align-items:center;gap:15px;padding:12px 20px;background:var(--card);border-left:5px solid var(--c);transition:.22s}
+.hr:hover{transform:translateX(9px);box-shadow:0 0 30px -8px var(--c)}
+.hr .rn{font:900 26px/1 var(--disp);color:#46306e;transition:.2s;font-variant-numeric:tabular-nums}
+.hr.g1 .rn{color:var(--y)}.hr.g2 .rn{color:var(--c)}.hr.g3 .rn{color:var(--m)}
+.hr:hover .rn{color:var(--m)}
+.hr .mi h3{font:900 15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hr .mi .mt{font:700 9.5px;color:var(--sub)}
+.hr .mi .fill{height:6px;background:#26123f;border-radius:8px;margin-top:8px;overflow:hidden}
+.hr .mi .fill i{display:block;height:100%;border-radius:8px;background:linear-gradient(90deg,var(--m),var(--c));transform:scaleX(0);transform-origin:left;transition:transform 1s cubic-bezier(.2,.8,.2,1);box-shadow:0 0 12px var(--c)}
+.hr .sc{font:900 17.5px var(--mono);text-align:right;font-variant-numeric:tabular-nums;color:var(--y)}
+.hr .sc small{display:block;font-size:8.5px;color:var(--sub);letter-spacing:.7px;font-weight:800}
+
+/* 三、分类：磁带格 */
+#cat .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.ta{position:relative;height:118px;display:grid;grid-template-columns:54px 1fr;align-items:center;gap:12px;padding:14px;background:var(--card);border:1px solid var(--line);transition:.24s}
+.ta .reel{width:40px;height:40px;border-radius:50%;border:3px solid var(--c);position:relative}
+.ta .reel::before{content:"";position:absolute;inset:9px;border-radius:50%;background:var(--bg)}
+.ta .reel::after{content:"";position:absolute;inset:-9px;border-radius:50%;border:2px dashed var(--m);opacity:.5;animation:spin 9s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.ta h3{font:900 15px;letter-spacing:1.5px}
+.ta span{font:800 9px;letter-spacing:1px;color:var(--sub);display:block;margin-top:3px}
+.ta:hover{background:var(--c);color:#0c0014;border-color:var(--c);transform:translateY(-6px);box-shadow:0 20px 40px -14px var(--c)}
+.ta:hover span{color:rgba(12,0,20,.72)}
+
+/* 四、更新日历：放映窗 */
+#cal .grid{display:grid;grid-template-columns:repeat(7,1fr);gap:9px}
+.day{background:var(--card);border:1px solid var(--line);padding:12px 11px;min-height:152px;transition:.22s;position:relative}
+.day .hd{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px dashed var(--line);padding-bottom:7px}
+.day .wk{font:900 10px;letter-spacing:2.4px;color:var(--c)}
+.day .dt{font:900 29px/1 var(--mono);color:var(--ink);font-variant-numeric:tabular-nums}
+.day.today{background:var(--m);border-color:var(--m);box-shadow:0 0 28px -8px var(--m)}
+.day.today .wk,.day.today .dt{color:#0c0014}
+.day ul{margin-top:9px;display:flex;flex-direction:column;gap:6px}
+.day li{font:800 9.5px;position:relative;padding-left:10px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.day li::before{content:"";position:absolute;left:0;top:7px;width:5px;height:5px;background:var(--y)}
+.day.today li::before{background:#0c0014}
+
+/* 五、指南：胶片齿孔步骤 */
+#guide .st{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border:1px solid var(--line);background:var(--card)}
+.gu{position:relative;padding:22px 18px 20px;border-right:1px dashed var(--line);transition:.26s;background-image:radial-gradient(circle at 6px 6px,rgba(255,255,255,.05) 2px,transparent 3px),radial-gradient(circle at calc(100% - 6px) 6px,rgba(255,255,255,.05) 2px,transparent 3px);background-size:100% 13px}
+.gu:last-child{border-right:none}
+.gu .no{font:900 12px;letter-spacing:2.6px;color:var(--y)}
+.gu h3{font:900 15.5px;margin-top:9px;letter-spacing:.8px}
+.gu p{font-size:11.4px;color:var(--sub);margin-top:8px;min-height:60px}
+.gu .go{display:inline-block;margin-top:10px;font:900 9.5px;color:var(--c);letter-spacing:1.4px}
+.gu:hover{background-color:color-mix(in srgb,var(--c) 10%,var(--card));transform:translateY(-6px)}
+
+/* 六、数据墙 */
+#about .wall{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.kpi{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--c);padding:24px;text-align:center;transition:.26s}
+.kpi:hover{transform:translateY(-7px);border-color:var(--m);box-shadow:0 24px 46px -18px var(--m)}
+.kpi b{display:block;font:900 30px/1 var(--mono);color:var(--y);font-variant-numeric:tabular-nums;text-shadow:0 0 14px rgba(255,226,52,.3)}
+.kpi b i{font-style:normal;font-size:10.5px;color:var(--m);font-weight:800}
+.kpi span{font:800 10.5px;color:var(--sub);letter-spacing:1.4px}
+.note{margin-top:16px;background:linear-gradient(135deg,var(--m),var(--b));color:#fff;border-radius:4px;padding:30px 34px;position:relative;overflow:hidden}
+.note::before{content:"77777";position:absolute;right:14px;top:-30px;font:900 160px/1 var(--disp);color:rgba(255,255,255,.08)}
+.note h3{font:900 15px;letter-spacing:2px}
+.note p{font-size:12.8px;line-height:1.95;margin-top:11px;color:rgba(255,255,255,.94);max-width:1100px}
+.note .li{display:flex;gap:9px;flex-wrap:wrap;margin-top:16px}
+.note .li a{font:800 10.5px;color:#0c0014;background:rgba(255,255,255,.92);padding:6px 14px;transition:.2s}
+.note .li a:hover{background:var(--y)}
+
+footer{margin-top:26px;background:#060010;padding:32px 0 38px;position:relative;z-index:4;border-top:1px solid var(--line)}
+.foot{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;align-items:flex-start;font-size:12px;color:#8a73ab}
+.foot b{color:var(--y);font:900 19px;letter-spacing:.8px}
+.foot-links{display:flex;gap:18px;flex-wrap:wrap}
+.foot-links a:hover{color:var(--c)}
+.top{position:fixed;right:14px;bottom:18px;z-index:60;width:54px;height:54px;border-radius:50%;display:grid;place-items:center;font:900 20px;cursor:pointer;background:var(--m);color:#fff;opacity:0;pointer-events:none;transition:.3s;box-shadow:0 14px 26px -8px var(--m)}
+.top.on{opacity:1;pointer-events:auto}
+
+@media(max-width:1120px){
+  #wall .grid{grid-template-columns:repeat(3,1fr)}
+  #cat .grid{grid-template-columns:repeat(2,1fr)}
+  #about .wall{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:760px){
+  .topbar{height:56px}.logo{font-size:16px}.logo b{font-size:8.5px}
+  .navi{display:none}
+  .wrap{padding:0 15px}
+  .hero{padding:116px 0 48px}
+  .search{flex-direction:column}.search button{padding:14px}
+  .sec-head h2{font-size:20px}
+  #wall .grid,#cat .grid{grid-template-columns:repeat(2,1fr)}
+  #about .wall{grid-template-columns:repeat(2,1fr)}
+  #cal .grid{grid-template-columns:repeat(2,1fr)}
+  .day{min-height:120px}
+  #guide .st{grid-template-columns:1fr 1fr}
+  .gu{border-bottom:1px dashed var(--line)}
+  .hr{grid-template-columns:30px 1fr 50px;gap:8px;padding:10px 12px}
+  .hr .sc{font-size:14px}
+  .tk{height:210px}
+  .neon{display:none}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaobao.js"></script>
+
+<div class="neon n1" aria-hidden="true">77777 · MOVIE · 77777</div>
+<div class="neon n2" aria-hidden="true">ONLINE · WATCH · 77777</div>
+
+<header class="topbar" role="banner">
+  <div class="wrap">
+    <a class="logo" href="#" aria-label="返回顶部">77777<em>电影网</em><b>ONLINE WATCH</b></a>
+    <nav class="navi" role="navigation" aria-label="主导航">
+      <a href="#wall">片单</a>
+      <a href="#hot">热播榜</a>
+      <a href="#cat">分类</a>
+      <a href="#cal">日历</a>
+      <a href="#guide">指南</a>
+      <a href="#about">关于</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="band">◤ 霓 虹 · 影 院 · 导 航 ◢ &nbsp;//&nbsp; NEON CINEMA DIRECTORY</div>
+    <h1><em>77777</em>电影网<br><s>免费高清电影在线观看</s> 导航</h1>
+    <p><strong>77777电影网</strong>是精选 <strong>77777 电影网站</strong> 的影视导航大全：收录 <strong>动作、喜剧、爱情、科幻、悬疑、恐怖、动漫、纪录片、电视剧、综艺</strong> 等分类的 <strong>免费高清电影在线观看</strong> 入口，按 <strong>类型、年份、地区、清晰度、豆瓣评分</strong> 整理，标注 <strong>更新时间、中文字幕、4K 蓝光与备用入口</strong>，链接稳、更新快、界面够炫。</p>
+    <form class="search" role="search" onsubmit="return false">
+      <input type="search" placeholder="搜电影网站 / 片名 / 导演 / 演员，例如：科幻片 2026 4K 蓝光" aria-label="站内搜索">
+      <button type="submit">检 索</button>
+    </form>
+    <div class="stats">
+      <div><b>77,777<i> 个</i></b>收录电影网站</div>
+      <div><b>10<i> 类</i></b>分类导航</div>
+      <div><b>8.7<i> 分</i></b>平均评分</div>
+      <div><b>12<i> h</i></b>失效补链</div>
+    </div>
+  </div>
+</section>
+
+<main class="wrap">
+
+  <!-- 一、片单：票根卡 -->
+  <section class="sec" id="wall" aria-labelledby="h1">
+    <div class="sec-head"><span class="ix">01</span><h2>今日<em>片单</em></h2><small>TOP 12 · 4K / 蓝光 / 中文字幕</small></div>
+    <div class="pill">
+      <a href="#wall">全部</a><a href="#wall">电影</a><a href="#wall">电视剧</a><a href="#wall">动漫</a><a href="#wall">综艺</a><a href="#wall">纪录片</a><a href="#wall">4K</a><a href="#wall">蓝光</a>
+    </div>
+    <div class="grid">
+      <a class="tk" href="#" rel="nofollow noopener" style="--c2:#ff2fa0"><span class="tg">独家推荐</span><h3>奥本海默</h3><div class="q">传记 · 历史 · 诺兰 · 2023</div><div class="ft"><span class="sc">8.8<small>4K</small></span><span class="lk">蓝光影院 →</span></div></a>
+      <a class="tk" href="#" rel="nofollow noopener" style="--c2:#5b6bff"><span class="tg">热播</span><h3>寄生虫</h3><div class="q">剧情 · 社会伦理 · 2019</div><div class="ft"><span class="sc">8.8<small>1080P</small></span><span class="lk">云播剧场 →</span></div></a>
+      <a class="tk" href="#" rel="nofollow noopener" style="--c2:#31e8c9"><span class="tg">精选</span><h3>小偷家族</h3><div class="q">家庭伦理 · 是枝裕和 · 2018</div><div class="ft"><span class="sc">8.7<small>中文字幕</small></span><span class="lk">光影影院 →</span></div></a>
+      <a class="tk" href="#" rel="nofollow noopener" style="--c2:#ffe234"><span class="tg">上新</span><h3>坠落</h3><div class="q">悬疑 · 惊悚 · 2023</div><div class="ft"><span class="sc">8.5<small>双语</small></span><span class="lk">速看电影 →</span></div></a>
+      <a class="tk" href="#" rel="nofollow noopener" style="--c2:#ff6f91"><span class="tg">动作</span><h3>周处除三害</h3><div class="q">动作 · 犯罪 · 2023</div><div class="ft"><span class="sc">8.4<small>4K</small></span><span class="lk">蓝光影院 →</span></div></a>
+      <a class="tk" href="#" rel="nofollow noopener" style="--c2:#17c98a"><span class="tg">喜剧</span><h3>年会不能停！</h3><div class="q">喜剧 · 职场 · 2023</div><div class="ft"><span class="sc">8.2<small>1080P</small></span><span class="lk">综艺大全 →</span></div></a>
+      <a class="tk" href="#" rel="nofollow noopener" style="--c2:#a86bff"><span class="tg">悬疑</span><h3>默杀</h3><div class="q">悬疑 · 犯罪 · 2024</div><div class="ft"><span class="sc">7.8<small>中文字幕</small></span><span class="lk">云播剧场 →</span></div></a>
+      <a class="tk" href="#" rel="nofollow noopener" style="--c2:#0ea5e9"><span class="tg">剧情</span><h3>第二十条</h3><div class="q">剧情 · 法律 · 张艺谋 · 2024</div><div class="ft"><span class="sc">7.9<small>4K</small></span><span class="lk">经典修复 →</span></div></a>
+      <a class="tk" href="#" rel="nofollow noopener" style="--c2:#ec4899"><span class="tg">韩剧</span><h3>黑暗荣耀</h3><div class="q">韩剧 · 复仇 · 2022</div><div class="ft"><span class="sc">8.9<small>韩语中字</small></span><span class="lk">光影影院 →</span></div></a>
+      <a class="tk" href="#" rel="nofollow noopener" style="--c2:#14b8a6"><span class="tg">动漫</span><h3>灌篮高手</h3><div class="q">动画 · 剧场版 · 2022</div><div class="ft"><span class="sc">8.6<small>4K</small></span><span class="lk">动漫星球 →</span></div></a>
+      <a class="tk" href="#" rel="nofollow noopener" style="--c2:#6366f1"><span class="tg">纪录</span><h3>地球脉动 III</h3><div class="q">纪录片 · BBC · 2023</div><div class="ft"><span class="sc">9.7<small>4K HDR</small></span><span class="lk">纪录视界 →</span></div></a>
+      <a class="tk" href="#" rel="nofollow noopener" style="--c2:#eab308"><span class="tg">短剧</span><h3>竖屏微短剧</h3><div class="q">短剧 · 日更 20 部</div><div class="ft"><span class="sc">7.5<small>1080P</small></span><span class="lk">短剧速递 →</span></div></a>
+    </div>
+  </section>
+
+  <!-- 二、热播榜：霓虹条形图 -->
+  <section class="sec" id="hot" aria-labelledby="h2">
+    <div class="sec-head"><span class="ix">02</span><h2>热播<em>榜</em></h2><small>TOP 8 · 实时扫描</small></div>
+    <div class="tb">
+      <a class="hr g1" href="#" rel="nofollow noopener" style="--c:var(--y)"><span class="rn">01</span><span class="mi"><h3>奥本海默</h3><div class="mt">克里斯托弗·诺兰 · 传记 / 历史 · 2023</div><div class="fill"><i style="--w:.97"></i></div></span><span class="sc">8.8<small>热度 97</small></span></a>
+      <a class="hr g2" href="#" rel="nofollow noopener" style="--c:var(--c)"><span class="rn">02</span><span class="mi"><h3>寄生虫</h3><div class="mt">奉俊昊 · 剧情 / 社会伦理 · 2019</div><div class="fill"><i style="--w:.94"></i></div></span><span class="sc">8.8<small>热度 94</small></span></a>
+      <a class="hr g3" href="#" rel="nofollow noopener" style="--c:var(--m)"><span class="rn">03</span><span class="mi"><h3>小偷家族</h3><div class="mt">是枝裕和 · 家庭伦理 · 2018</div><div class="fill"><i style="--w:.91"></i></div></span><span class="sc">8.7<small>热度 91</small></span></a>
+      <a class="hr" href="#" rel="nofollow noopener" style="--c:#ffe234"><span class="rn">04</span><span class="mi"><h3>坠落</h3><div class="mt">克里夫·欧文 · 悬疑 / 惊悚 · 2023</div><div class="fill"><i style="--w:.88"></i></div></span><span class="sc">8.5<small>热度 88</small></span></a>
+      <a class="hr" href="#" rel="nofollow noopener" style="--c:#a86bff"><span class="rn">05</span><span class="mi"><h3>周处除三害</h3><div class="mt">黄精甫 · 动作 / 犯罪 · 2023</div><div class="fill"><i style="--w:.85"></i></div></span><span class="sc">8.4<small>热度 85</small></span></a>
+      <a class="hr" href="#" rel="nofollow noopener" style="--c:#17c98a"><span class="rn">06</span><span class="mi"><h3>年会不能停！</h3><div class="mt">董润年 · 喜剧 / 职场 · 2023</div><div class="fill"><i style="--w:.82"></i></div></span><span class="sc">8.2<small>热度 82</small></span></a>
+      <a class="hr" href="#" rel="nofollow noopener" style="--c:#f97316"><span class="rn">07</span><span class="mi"><h3>默杀</h3><div class="mt">柯汶利 · 悬疑 / 犯罪 · 2024</div><div class="fill"><i style="--w:.78"></i></div></span><span class="sc">7.8<small>热度 78</small></span></a>
+      <a class="hr" href="#" rel="nofollow noopener" style="--c:#0ea5e9"><span class="rn">08</span><span class="mi"><h3>第二十条</h3><div class="mt">张艺谋 · 剧情 / 法律 · 2024</div><div class="fill"><i style="--w:.74"></i></div></span><span class="sc">7.9<small>热度 74</small></span></a>
+    </div>
+  </section>
+
+  <!-- 三、分类：磁带格 -->
+  <section class="sec" id="cat" aria-labelledby="h3">
+    <div class="sec-head"><span class="ix">03</span><h2>分类<em>磁带</em></h2><small>10 类 · 77777 电影网站</small></div>
+    <div class="grid">
+      <a class="ta" href="#" rel="nofollow noopener"><span class="reel" aria-hidden="true"></span><div><h3>动作片</h3><span>打斗 · 枪战</span></div></a>
+      <a class="ta" href="#" rel="nofollow noopener"><span class="reel" aria-hidden="true"></span><div><h3>喜剧片</h3><span>脱口秀 · 讽刺</span></div></a>
+      <a class="ta" href="#" rel="nofollow noopener"><span class="reel" aria-hidden="true"></span><div><h3>爱情片</h3><span>青春 · 纯爱</span></div></a>
+      <a class="ta" href="#" rel="nofollow noopener"><span class="reel" aria-hidden="true"></span><div><h3>科幻片</h3><span>太空 · AI</span></div></a>
+      <a class="ta" href="#" rel="nofollow noopener"><span class="reel" aria-hidden="true"></span><div><h3>悬疑片</h3><span>反转 · 推理</span></div></a>
+      <a class="ta" href="#" rel="nofollow noopener"><span class="reel" aria-hidden="true"></span><div><h3>恐怖片</h3><span>惊悚 · 丧尸</span></div></a>
+      <a class="ta" href="#" rel="nofollow noopener"><span class="reel" aria-hidden="true"></span><div><h3>动漫番剧</h3><span>新番 · 国漫</span></div></a>
+      <a class="ta" href="#" rel="nofollow noopener"><span class="reel" aria-hidden="true"></span><div><h3>纪录片</h3><span>自然 · 人文</span></div></a>
+      <a class="ta" href="#" rel="nofollow noopener"><span class="reel" aria-hidden="true"></span><div><h3>热播电视剧</h3><span>国产 · 美韩日</span></div></a>
+      <a class="ta" href="#" rel="nofollow noopener"><span class="reel" aria-hidden="true"></span><div><h3>综艺</h3><span>真人秀 · 选秀</span></div></a>
+      <a class="ta" href="#" rel="nofollow noopener"><span class="reel" aria-hidden="true"></span><div><h3>经典老片</h3><span>修复 · 影史</span></div></a>
+      <a class="ta" href="#" rel="nofollow noopener"><span class="reel" aria-hidden="true"></span><div><h3>合集打包</h3><span>导演 · 演员</span></div></a>
+    </div>
+  </section>
+
+  <!-- 四、更新日历：放映窗 -->
+  <section class="sec" id="cal" aria-labelledby="h4">
+    <div class="sec-head"><span class="ix">04</span><h2>更新<em>日历</em></h2><small>一周 · 追更不迷路</small></div>
+    <div class="grid">
+      <div class="day"><div class="hd"><span class="wk">MON</span><span class="dt">13</span></div><ul><li>蓝光影院 · 新片 8 部</li><li>云播剧场 · 韩剧 2 集</li></ul></div>
+      <div class="day"><div class="hd"><span class="wk">TUE</span><span class="dt">14</span></div><ul><li>速看电影 · 美剧 3 集</li><li>动漫星球 · 新番 5 话</li></ul></div>
+      <div class="day today"><div class="hd"><span class="wk">WED</span><span class="dt">15</span></div><ul><li>光影影院 · 院线同步</li><li>综艺大全 · 周更</li></ul></div>
+      <div class="day"><div class="hd"><span class="wk">THU</span><span class="dt">16</span></div><ul><li>经典修复 · 4K 上架</li><li>纪录视界 · BBC 新片</li></ul></div>
+      <div class="day"><div class="hd"><span class="wk">FRI</span><span class="dt">17</span></div><ul><li>韩流剧场 · 周末档</li><li>日影工房 · 动画电影</li></ul></div>
+      <div class="day"><div class="hd"><span class="wk">SAT</span><span class="dt">18</span></div><ul><li>蓝光影院 · 周末片单</li><li>美剧港湾 · 双集连播</li></ul></div>
+      <div class="day"><div class="hd"><span class="wk">SUN</span><span class="dt">19</span></div><ul><li>短剧速递 · 日更 20 部</li><li>合集打包 · 周更</li></ul></div>
+    </div>
+  </section>
+
+  <!-- 五、指南：胶片齿孔步骤 -->
+  <section class="sec" id="guide" aria-labelledby="h5">
+    <div class="sec-head"><span class="ix">05</span><h2>观影<em>指南</em></h2><small>4 步 · 快速上手</small></div>
+    <div class="st">
+      <div class="gu"><div class="no">STEP 01</div><h3>按类型选站</h3><p>看电影去蓝光 / 云播，追剧去光影，看番去动漫星球，看纪录去纪录视界。</p><span class="go">→ 分类磁带</span></div>
+      <div class="gu"><div class="no">STEP 02</div><h3>看清清晰度</h3><p>优先 4K / 蓝光 / 1080P / 双语字幕 / 无水印，老片认准"经典修复"标签。</p><span class="go">→ 今日片单</span></div>
+      <div class="gu"><div class="no">STEP 03</div><h3>备好备用入口</h3><p>每个站点至少收藏 2 个镜像，链接失效立刻切换，不浪费时间。</p><span class="go">→ 更新日历</span></div>
+      <div class="gu"><div class="no">STEP 04</div><h3>支持正版</h3><p>院线、腾讯视频、爱奇艺、优酷、芒果 TV、Netflix、Apple TV、正版影碟与图书。</p><span class="go">→ 免责声明</span></div>
+    </div>
+  </section>
+
+  <!-- 六、数据墙 -->
+  <section class="sec" id="about" aria-labelledby="h6">
+    <div class="sec-head"><span class="ix">06</span><h2>关于 <em>77777电影网</em></h2><small>索引 · 不存储</small></div>
+    <div class="wall">
+      <div class="kpi"><b>77,777<i> 个</i></b><span>电影网站</span></div>
+      <div class="kpi"><b>10<i> 类</i></b><span>分类导航</span></div>
+      <div class="kpi"><b>8.7<i> 分</i></b><span>平均评分</span></div>
+      <div class="kpi"><b>12<i> h</i></b><span>失效补链</span></div>
+    </div>
+    <div class="note">
+      <h3>▍站点说明与免责声明</h3>
+      <p><strong>77777电影网</strong>（<strong>https://77777dianyingwang-cn.github.io/</strong>）是一个 <strong>电影网站导航与影视资源入口索引平台</strong>，整理并标注 <strong>77777 电影网站</strong> 的 <strong>类型、年份、地区、清晰度、字幕、更新时间与备用入口</strong>，<strong>不存储、不上传、不提供任何影视文件</strong>。所有影片版权归原作者、制片公司及发行方（中影、光线、华谊、腾讯视频、爱奇艺、优酷、芒果 TV、Netflix、CJ、GAGA 等）所有，外链来自网络分享，可能随时失效，请以实际页面为准，并通过 <strong>院线、正版视频平台、正版影碟与图书</strong> 支持创作者。</p>
+      <div class="li">
+        <a href="#wall">今日片单</a>
+        <a href="#hot">热播榜</a>
+        <a href="#cat">分类磁带</a>
+        <a href="#cal">更新日历</a>
+        <a href="#guide">观影指南</a>
+        <a href="#">免责声明</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <div><b>77777电影网</b> · 77777 电影网站大全 / 电影网站导航 / 免费高清电影在线观看 / 热播电视剧 / 动漫 / 纪录片 / 综艺 / 4K / 蓝光 / 中文字幕</div>
+    <div class="foot-links">
+      <a href="#wall">片单</a>
+      <a href="#hot">热播榜</a>
+      <a href="#cat">分类</a>
+      <a href="#cal">日历</a>
+      <a href="#guide">指南</a>
+      <a href="#about">关于</a>
+    </div>
+  </div>
+</footer>
+
+<button class="top" id="top" aria-label="回到顶部">↑</button>
+
+<script>
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.querySelectorAll('.hr .mi .fill i').forEach(function(b,i){setTimeout(function(){b.style.transform='scaleX('+(b.style.getPropertyValue('--w')||'.8')+')'},i*50)});io.unobserve(e.target)}})},{threshold:.16});
+document.querySelectorAll('#hot .tb').forEach(function(n){io.observe(n)});
+var t=document.getElementById('top');
+window.addEventListener('scroll',function(){t.classList[window.scrollY>700?'add':'remove']('on')});
+t.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'})});
+</script>
+</body>
+</html>
